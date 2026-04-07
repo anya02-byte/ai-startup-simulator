@@ -1,0 +1,19 @@
+name: ai-startup-simulator
+version: 1.0
+
+endpoints:
+  on:
+    path: /on
+    method: POST
+  reset:
+    path: /reset
+    method: POST
+  action:
+    path: /action
+    method: POST
+  ai:
+    path: /ai
+    method: GET
+  simulate:
+    path: /simulate
+    method: GET
